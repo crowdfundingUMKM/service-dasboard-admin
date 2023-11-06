@@ -1,10 +1,10 @@
 import Head from 'next/head'
 
-export default function ListServiceLayout({ children }) {
+export default function BlankLayout({ children }) {
     return (
       <>
         <Head>
-            <title>Daftar Service Status | Admin Mode</title>
+            <title>Not Have Data | Admin Mode</title>
         </Head>
         {children}
       </>

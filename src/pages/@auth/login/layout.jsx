@@ -1,13 +1,15 @@
 import Head from 'next/head'
 
-export default function ListServiceLayout({ children }) {
+
+export default function LoginLayout({ children }) {
     return (
       <>
         <Head>
-            <title>Daftar Service Status | Admin Mode</title>
+            <title>Login Akun | Admin Mode</title>
         </Head>
         {children}
       </>
     );
   }
+  
   
