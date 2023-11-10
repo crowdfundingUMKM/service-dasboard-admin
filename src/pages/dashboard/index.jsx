@@ -109,31 +109,6 @@ export default function Home() {
                 {/* Recent Sales */}
                 <div className="col-12">
                 <div className="card recent-sales overflow-auto">
-                    <div className="filter">
-                    <a className="icon" href="#" data-bs-toggle="dropdown">
-                        <i className="bi bi-three-dots" />
-                    </a>
-                    <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                        <li className="dropdown-header text-start">
-                        <h6>Filter</h6>
-                        </li>
-                        <li>
-                        <a className="dropdown-item" href="#">
-                            Today
-                        </a>
-                        </li>
-                        <li>
-                        <a className="dropdown-item" href="#">
-                            This Month
-                        </a>
-                        </li>
-                        <li>
-                        <a className="dropdown-item" href="#">
-                            This Year
-                        </a>
-                        </li>
-                    </ul>
-                    </div>
                     <div className="card-body">
                     <h5 className="card-title">
                         Total User Transaksi <span>| Semua Campaign</span>
@@ -237,7 +212,7 @@ export default function Home() {
                     <h5 className="card-title">
                         Top Campaign UMKM <span>| Tahun ini</span>
                     </h5>
-                    <table className="table table-borderless">
+                    <DataTable>
                         <thead>
                         <tr>
                             <th scope="col">Preview Campaign</th>
@@ -324,7 +299,7 @@ export default function Home() {
                             <td>$3,239</td>
                         </tr>
                         </tbody>
-                    </table>
+                    </DataTable>
                     </div>
                 </div>
                 </div>
