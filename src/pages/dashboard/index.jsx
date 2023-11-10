@@ -113,7 +113,7 @@ export default function Home() {
                     <h5 className="card-title">
                         Total User Transaksi <span>| Semua Campaign</span>
                     </h5>
-                    <table className="table table-borderless datatable">
+                    <DataTable>
                         <thead>
                         <tr>
                             <th scope="col">#</th>
@@ -200,7 +200,7 @@ export default function Home() {
                             </td>
                         </tr>
                         </tbody>
-                    </table>
+                    </DataTable>
                     </div>
                 </div>
                 </div>
@@ -212,7 +212,7 @@ export default function Home() {
                     <h5 className="card-title">
                         Top Campaign UMKM <span>| Tahun ini</span>
                     </h5>
-                    <DataTable>
+                    <table className="table table-borderless ">
                         <thead>
                         <tr>
                             <th scope="col">Preview Campaign</th>
@@ -299,7 +299,7 @@ export default function Home() {
                             <td>$3,239</td>
                         </tr>
                         </tbody>
-                    </DataTable>
+                    </table>
                     </div>
                 </div>
                 </div>
