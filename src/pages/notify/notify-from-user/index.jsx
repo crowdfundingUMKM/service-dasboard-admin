@@ -38,18 +38,18 @@ export default function NotifFromUser() {
                         </div>
                         {/* Move to User data */}
                         <a href="#">
-                            <button className="btn btn-primary">Check User</button>
+                            <button className="btn btn-primary m-1">Check User</button>
                         </a>
                         {/* dokument lampiran */}
                         <a href="#">
-                            <button className="btn btn-secondary">Link</button>
+                            <button className="btn btn-secondary m-1">Link</button>
                         </a>
                         {/* Button status */}
                         <a href="#">
-                            <button className="btn btn-success">Done</button>
+                            <button className="btn btn-success m-1">Done</button>
                         </a>
                         <a href="#">
-                            <button className="btn btn-danger">Delete</button>
+                            <button className="btn btn-danger m-1">Delete</button>
                         </a>
                         </div>
                     </div>
@@ -68,17 +68,17 @@ export default function NotifFromUser() {
                             <p>Julian Androw - 12 Mei 2023</p>
                         </div>
                         <a href="#">
-                            <button className="btn btn-primary">Check User</button>
+                            <button className="btn btn-primary m-1">Check User</button>
                         </a>
                         <a href="#">
-                            <button className="btn btn-secondary">Link</button>
+                            <button className="btn btn-secondary m-1">Link</button>
                         </a>
                         {/* Button status */}
                         <a href="#">
-                            <button className="btn btn-success">Done</button>
+                            <button className="btn btn-success m-1">Done</button>
                         </a>
                         <a href="#">
-                            <button className="btn btn-danger">Delete</button>
+                            <button className="btn btn-danger m-1">Delete</button>
                         </a>
                         </div>
                     </div>
@@ -96,17 +96,17 @@ export default function NotifFromUser() {
                             <p>Julian Androw - 12 Mei 2023</p>
                         </div>
                         <a href="#">
-                            <button className="btn btn-primary">Check User</button>
+                            <button className="btn btn-primary m-1">Check User</button>
                         </a>
                         <a href="#">
-                            <button className="btn btn-secondary">Link</button>
+                            <button className="btn btn-secondary m-1">Link</button>
                         </a>
                         {/* Button status */}
                         <a href="#">
-                            <button className="btn btn-success">Done</button>
+                            <button className="btn btn-success m-1">Done</button>
                         </a>
                         <a href="#">
-                            <button className="btn btn-danger">Delete</button>
+                            <button className="btn btn-danger m-1">Delete</button>
                         </a>
                         </div>
                     </div>
