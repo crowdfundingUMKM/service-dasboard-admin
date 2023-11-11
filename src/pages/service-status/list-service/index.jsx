@@ -1,4 +1,5 @@
 import ListServiceLayout from '@/pages/service-status/list-service/layout'
+import Link from 'next/link'
 import DataTable from '@/components/utils/DataTable'
 export default function ListService() {
     return (
@@ -9,7 +10,7 @@ export default function ListService() {
             <nav>
                 <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                    <a href="index.html">Home</a>
+                    <Link href="/dashboard">Home</Link>
                 </li>
                 <li className="breadcrumb-item">Service Status</li>
                 <li className="breadcrumb-item active">Daftar Service Status</li>
