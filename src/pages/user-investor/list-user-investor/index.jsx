@@ -1,5 +1,6 @@
 import ListUserInvestorLayout from '@/pages/user-investor/list-user-investor/layout';
 import Link from 'next/link'
+import Image from 'next/image'
 import DataTable from '@/components/utils/DataTable';
 
 export default function ListUserInvestor() {
@@ -271,10 +272,13 @@ export default function ListUserInvestor() {
                         <div className="row">
                         <div className="col-lg-1">
                             {/* Gambar Profil */}
-                            <img
+                            <Image 
                             src="/assets/img/profile-img.jpg"
                             alt="User Profile Image"
-                            className="img-fluid rounded-2"
+                            className="img-fluid rounded-2 p-0"
+                            width={100}
+                            height={100}
+                            layout="responsive"
                             />
                         </div>
                         <div className="col-lg">

@@ -226,7 +226,7 @@ export default function Home() {
                         <tr>
                             <th scope="row">
                             <a href="#">
-                                <img src="assets/img/product-1.jpg" alt="" />
+                                <Image src="/assets/img/product-1.jpg" alt="" width={70} height={70}/>
                             </a>
                             </th>
                             <td>
@@ -241,7 +241,7 @@ export default function Home() {
                         <tr>
                             <th scope="row">
                             <a href="#">
-                                <img src="assets/img/product-2.jpg" alt="" />
+                                <Image src="/assets/img/product-2.jpg" alt="" width={70} height={70}/>
                             </a>
                             </th>
                             <td>
@@ -256,7 +256,7 @@ export default function Home() {
                         <tr>
                             <th scope="row">
                             <a href="#">
-                                <img src="assets/img/product-3.jpg" alt="" />
+                                <Image src="/assets/img/product-3.jpg" alt="" width={70} height={70} />
                             </a>
                             </th>
                             <td>
@@ -271,7 +271,7 @@ export default function Home() {
                         <tr>
                             <th scope="row">
                             <a href="#">
-                                <img src="assets/img/product-4.jpg" alt="" />
+                                <Image src="/assets/img/product-4.jpg" alt="" width={70} height={70} />
                             </a>
                             </th>
                             <td>
@@ -286,7 +286,7 @@ export default function Home() {
                         <tr>
                             <th scope="row">
                             <a href="#">
-                                <img src="assets/img/product-5.jpg" alt="" />
+                                <Image src="/assets/img/product-5.jpg" alt="" width={70} height={70}/>
                             </a>
                             </th>
                             <td>
