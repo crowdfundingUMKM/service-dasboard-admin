@@ -2,11 +2,17 @@
 import Link from "next/link";
 // import 'bootstrap-icons/font/bootstrap-icons.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { useRouter } from 'next/router';
 import { usePathname } from 'next/navigation'
 
 export default function Sidebar() {
   const pathname = usePathname()
+
+//   use for preview campaign and active
+  const { asPath } = useRouter();
+  // Cek apakah path saat ini diawali dengan '/user-campaign/preview-campaign'
+  const isPreviewActive = asPath.startsWith('/user-campaign/preview-campaign');
+
   
   
     // useEffect(() => {
@@ -121,7 +127,7 @@ export default function Sidebar() {
                 </Link>
             </li>
             <li>
-                <Link href="/user-campaign/preview-campaign" className={`${pathname === '/user-campaign/preview-campaign' ? 'active' : ''}`}>
+                <Link href="/user-campaign/preview-campaign" className={isPreviewActive ? 'active' : ''}>
                 <i className="bi bi-circle" />
                 <span>Preview Campaign</span>
                 </Link>
