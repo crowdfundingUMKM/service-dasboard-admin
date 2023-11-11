@@ -197,7 +197,7 @@ export default function Sidebar() {
             </a>
             <ul id="side-notif-admin" className="nav-content collapse " data-bs-parent="#sidebar-nav">
             <li>
-                <Link href="/notify/notif-admin" className={`${pathname === '/notify/notif-admin' ? 'active' : ''}`}>
+                <Link href="/notify/notify-admin" className={`${pathname === '/notify/notif-admin' ? 'active' : ''}`}>
                 <i className="bi bi-circle" />
                 <span>Notif Admin</span>
                 </Link>
