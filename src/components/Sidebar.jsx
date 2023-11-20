@@ -220,17 +220,17 @@ export default function Sidebar() {
         {/* End this my sidabar UP */}
         <li className="nav-heading">Pages</li>
         <li className="nav-item">
-            <div className={`nav-link  ${pathname === '/information/profile' ? '' : 'collapsed'}`}>
+            <Link href="/information/profile" className={`nav-link  ${pathname === '/information/profile' ? '' : 'collapsed'}`}>
             <i className="bi bi-person" />
             <span>Profile</span>
-            </div>
+            </Link>
         </li>
         {/* End Profile Page Nav */}
         <li className="nav-item">
-            <div className={`nav-link  ${pathname === '/information/faq' ? '' : 'collapsed'}`}>
+            <Link href="/information/faq" className={`nav-link  ${pathname === '/information/faq' ? '' : 'collapsed'}`}>
             <i className="bi bi-question-circle" />
             <span>F.A.Q</span>
-            </div>
+            </Link>
         </li>
         {/* End F.A.Q Page Nav */}
         </ul>
