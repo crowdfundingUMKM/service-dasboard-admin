@@ -5,6 +5,7 @@ export default function NotifAdminLayout({ children }) {
       <>
         <Head>
             <title>Notifikasi Admin | Admin Mode</title>
+            <meta name="description" content="Daftar Notifikasi admin."/>
         </Head>
         {children}
       </>

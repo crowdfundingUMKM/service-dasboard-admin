@@ -6,6 +6,7 @@ export default function RegisterLayout({ children }) {
       <>
         <Head>
             <title>Register Akun | Admin Mode</title>
+            <meta name="description" content="Silahkan Register sebagai Admin Crowdfiunding UMKM"/>
         </Head>
         {children}
       </>

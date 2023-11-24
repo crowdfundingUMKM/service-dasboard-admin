@@ -5,6 +5,8 @@ export default function PreviewCampaignLayout({ children }) {
       <>
         <Head>
             <title>Preview Campaign | Admin Mode</title>
+            <meta name="description" content="Preview Campaign UMKM"/>
+
         </Head>
         {children}
       </>

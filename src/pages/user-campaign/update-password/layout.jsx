@@ -5,6 +5,8 @@ export default function UpdateUserCampaignLayout({ children }) {
       <>
         <Head>
             <title>Update Password User Campaign | Admin Mode</title>
+            <meta name="description" content="Update password user campaign."/>
+
         </Head>
         {children}
       </>

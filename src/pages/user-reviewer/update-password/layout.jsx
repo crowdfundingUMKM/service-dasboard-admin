@@ -5,6 +5,7 @@ export default function UpdateUserReviewerLayout({ children }) {
       <>
         <Head>
             <title>Update Password Reviewer | Admin Mode</title>
+            <meta name="description" content="Update password user reviewer."/>
         </Head>
         {children}
       </>

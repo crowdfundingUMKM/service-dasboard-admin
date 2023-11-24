@@ -6,6 +6,7 @@ export default function LoginLayout({ children }) {
       <>
         <Head>
             <title>Login Akun | Admin Mode</title>
+            <meta name="description" content="Silahkan Login sebagai Admin Crowdfiunding UMKM"/>
         </Head>
         {children}
       </>

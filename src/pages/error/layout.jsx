@@ -6,6 +6,7 @@ export default function ErrorLayout({ children }) {
       <>
         <Head>
             <title>Page Not Found | Admin Mode</title>
+            <meta name="description" content="Error Page, Not have data"/>
         </Head>
         {children}
       </>

@@ -5,6 +5,7 @@ export default function UpdateUserInvestorLayout({ children }) {
       <>
         <Head>
             <title>Update Password Investor | Admin Mode</title>
+            <meta name="description" content="Update password user campaign."/>
         </Head>
         {children}
       </>
