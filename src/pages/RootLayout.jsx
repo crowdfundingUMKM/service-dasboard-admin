@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <>
           <Head>
-          <meta charSet="utf-8"/>
+            <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
             <meta name="keywords" content="crowdfunding, UMKM, Indonesia, crowdfunding UMKM, crowdfunding Indonesia, crowdfunding UMKM Indonesia, crowdfunding UMKM, Admin"/>
             <meta name="theme-name" content="CrowdfundingUMKM" />
