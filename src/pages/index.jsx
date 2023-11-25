@@ -1,17 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+// pages/index.jsx
+// Halaman ini tidak memiliki konten dan langsung mengarahkan ke /dashboard
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
-const inter = Inter({ subsets: ['latin'] })
+function Home() {
+  const router = useRouter();
 
-export default function Home() {
-  return (
-    <>
-      <main id="main">
-      <p>INDEX</p>
+  useEffect(() => {
+    // Redirect to /dashboard
+    router.push('/dashboard');
+  }, []);
 
-      </main>
-    </>
-  )
+  return null; // Null atau komponen kosong, karena tidak ada konten yang perlu ditampilkan
 }
+
+export default Home;
