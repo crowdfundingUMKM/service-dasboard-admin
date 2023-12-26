@@ -232,6 +232,14 @@ export default function Sidebar() {
             <span>F.A.Q</span>
             </Link>
         </li>
+        <li className="nav-item" >
+              <Link href="/@auth/login">
+                <div className="nav-link collapsed">
+                <i className="bi bi-box-arrow-in-right" />
+                <span>Sign Out</span>
+                </div>
+              </Link>
+            </li>
         {/* End F.A.Q Page Nav */}
         </ul>
     </aside>

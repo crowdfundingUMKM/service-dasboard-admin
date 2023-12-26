@@ -69,7 +69,7 @@ export default function TransactionInvestor() {
                                         At recusandae consectetur
                                     </a>
                                     </td>
-                                    <td>$147</td>
+                                    <td>Rp.700.000</td>
                                     <td>
                                     <span className="badge bg-success">Approved</span>
                                     </td>
@@ -84,7 +84,7 @@ export default function TransactionInvestor() {
                                         Sunt similique distinctio
                                     </a>
                                     </td>
-                                    <td>$165</td>
+                                    <td>Rp.500.000</td>
                                     <td>
                                     <span className="badge bg-success">Approved</span>
                                     </td>
@@ -99,7 +99,7 @@ export default function TransactionInvestor() {
                                         Sunt yuliotos distinctio
                                     </a>
                                     </td>
-                                    <td>$165</td>
+                                    <td>Rp.200.000</td>
                                     <td>
                                     <span className="badge bg-success">Approved</span>
                                     </td>

@@ -1,6 +1,7 @@
 import ListUserReviewerLayout from '@/pages/user-reviewer/list-user-reviewer/layout';
 import Link from 'next/link';
 import Image from 'next/image';
+import DataTable from '@/components/utils/DataTable';
 
 export default function ListUserReviewerPage() {
     return (
@@ -26,7 +27,7 @@ export default function ListUserReviewerPage() {
                         <div className="card-body">
                         <h5 className="card-title">Daftar User Konsultan</h5>
                         {/* Table with hoverable rows */}
-                        <table className="table table-borderless datatable">
+                        <DataTable>
                             <thead>
                             <tr>
                                 <th scope="col">#</th>
@@ -38,7 +39,6 @@ export default function ListUserReviewerPage() {
                                 <th scope="col">Update Status Admin</th>
                                 <th scope="col">CreateAt</th>
                                 <th scope="col">UpdateIdAdmin</th>
-                                <th scope="col">UpdateAtAdmin</th>
                                 {/* more */}
                                 <th scope="col">Action</th>
                             </tr>
@@ -73,7 +73,6 @@ export default function ListUserReviewerPage() {
                                 </td>
                                 <td>2016-05-25</td>
                                 <td>552242-21a</td>
-                                <td>2016-05-25</td>
                                 <td>
                                 <button className="btn btn-primary">More</button>
                                 </td>
@@ -108,7 +107,6 @@ export default function ListUserReviewerPage() {
                                 </td>
                                 <td>2016-02-25</td>
                                 <td>552242-21a</td>
-                                <td>2016-05-25</td>
                                 <td>
                                 <button className="btn btn-primary">More</button>
                                 </td>
@@ -143,7 +141,6 @@ export default function ListUserReviewerPage() {
                                 </td>
                                 <td>2016-05-25</td>
                                 <td>552242-21a</td>
-                                <td>2016-05-25</td>
                                 <td>
                                 <button className="btn btn-primary">More</button>
                                 </td>
@@ -178,84 +175,13 @@ export default function ListUserReviewerPage() {
                                 </td>
                                 <td>2016-05-25</td>
                                 <td>552242-21a</td>
-                                <td>2016-05-25</td>
                                 <td>
                                 <button className="btn btn-primary">More</button>
                                 </td>
                             </tr>
                             {/* end user 4 */}
-                            {/* user 5 */}
-                            <tr>
-                                <th scope="row">5</th>
-                                <td>812242-21a</td>
-                                <td>Nanda Alian</td>
-                                <td>nandaali@gmail.com</td>
-                                <td>0843232134</td>
-                                <td>
-                                <div className="badge bg-danger">deactive</div>
-                                </td>
-                                <td>
-                                <a href="#">
-                                    <button className="btn btn-success btn-sm mt-sm-1">
-                                    active
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button className="btn btn-warning btn-sm mt-sm-1">
-                                    deactive
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button className="btn btn-danger btn-sm mt-sm-1">
-                                    delete
-                                    </button>
-                                </a>
-                                </td>
-                                <td>2018-05-25</td>
-                                <td>552242-21a</td>
-                                <td>2019-05-25</td>
-                                <td>
-                                <button className="btn btn-primary">More</button>
-                                </td>
-                            </tr>
-                            {/* end user 5 */}
-                            {/* user 6 */}
-                            <tr>
-                                <th scope="row">6</th>
-                                <td>332242-21a</td>
-                                <td>Salim Leorna</td>
-                                <td>salim123@gmail.com</td>
-                                <td>0843232134</td>
-                                <td>
-                                <div className="badge bg-danger">deactive</div>
-                                </td>
-                                <td>
-                                <a href="#">
-                                    <button className="btn btn-success btn-sm mt-sm-1">
-                                    active
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button className="btn btn-warning btn-sm mt-sm-1">
-                                    deactive
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button className="btn btn-danger btn-sm mt-sm-1">
-                                    delete
-                                    </button>
-                                </a>
-                                </td>
-                                <td>2018-05-25</td>
-                                <td>452242-21a</td>
-                                <td>2019-05-25</td>
-                                <td>
-                                <button className="btn btn-primary">More</button>
-                                </td>
-                            </tr>
-                            {/* end user 6 */}
                             </tbody>
-                        </table>
+                        </DataTable>
                         {/* End Table with hoverable rows */}
                         </div>
                     </div>

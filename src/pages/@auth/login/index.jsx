@@ -14,7 +14,7 @@ function Login() {
                             <div className="d-flex justify-content-center py-4">
                             <div className="logo d-flex align-items-center w-auto">
                             <Image src="/assets/img/logo.png" alt="" height={100} width={100}/>
-                                <span className="d-none d-lg-block">Admin CRWD</span>
+                                <span className="d-none d-lg-block">Admin</span>
                             </div>
                             </div>
                             {/* End Logo */}

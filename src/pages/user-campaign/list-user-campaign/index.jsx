@@ -39,7 +39,6 @@ export default function ListUserCampaign() {
                                 <th scope="col">Update Status Admin</th>
                                 <th scope="col">Create Date</th>
                                 <th scope="col">UpdateIdAdmin</th>
-                                <th scope="col">UpdateAtAdmin</th>
                                 {/* more */}
                                 <th scope="col">Action</th>
                             </tr>
@@ -74,7 +73,6 @@ export default function ListUserCampaign() {
                                 </td>
                                 <td>2016-05-25</td>
                                 <td>552242-21a</td>
-                                <td>2016-05-25</td>
                                 <td>
                                 <button className="btn btn-primary">More</button>
                                 </td>
@@ -109,7 +107,6 @@ export default function ListUserCampaign() {
                                 </td>
                                 <td>2016-02-25</td>
                                 <td>552242-21a</td>
-                                <td>2016-05-25</td>
                                 <td>
                                 <button className="btn btn-primary">More</button>
                                 </td>
@@ -144,7 +141,6 @@ export default function ListUserCampaign() {
                                 </td>
                                 <td>2016-05-25</td>
                                 <td>552242-21a</td>
-                                <td>2016-05-25</td>
                                 <td>
                                 <button className="btn btn-primary">More</button>
                                 </td>
@@ -179,82 +175,11 @@ export default function ListUserCampaign() {
                                 </td>
                                 <td>2016-05-25</td>
                                 <td>552242-21a</td>
-                                <td>2016-05-25</td>
                                 <td>
                                 <button className="btn btn-primary">More</button>
                                 </td>
                             </tr>
                             {/* end user 4 */}
-                            {/* user 5 */}
-                            <tr>
-                                <th scope="row">5</th>
-                                <td>812242-21a</td>
-                                <td>Nanda Alian</td>
-                                <td>nandaali@gmail.com</td>
-                                <td>0843232134</td>
-                                <td>
-                                <div className="badge bg-danger">deactive</div>
-                                </td>
-                                <td>
-                                <a href="#">
-                                    <button className="btn btn-success btn-sm mt-sm-1">
-                                    active
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button className="btn btn-warning btn-sm mt-sm-1">
-                                    deactive
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button className="btn btn-danger btn-sm mt-sm-1">
-                                    delete
-                                    </button>
-                                </a>
-                                </td>
-                                <td>2018-05-25</td>
-                                <td>552242-21a</td>
-                                <td>2019-05-25</td>
-                                <td>
-                                <button className="btn btn-primary">More</button>
-                                </td>
-                            </tr>
-                            {/* end user 5 */}
-                            {/* user 6 */}
-                            <tr>
-                                <th scope="row">6</th>
-                                <td>332242-21a</td>
-                                <td>Salim Leorna</td>
-                                <td>salim123@gmail.com</td>
-                                <td>0843232134</td>
-                                <td>
-                                <div className="badge bg-danger">deactive</div>
-                                </td>
-                                <td>
-                                <a href="#">
-                                    <button className="btn btn-success btn-sm mt-sm-1">
-                                    active
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button className="btn btn-warning btn-sm mt-sm-1">
-                                    deactive
-                                    </button>
-                                </a>
-                                <a href="#">
-                                    <button className="btn btn-danger btn-sm mt-sm-1">
-                                    delete
-                                    </button>
-                                </a>
-                                </td>
-                                <td>2018-05-25</td>
-                                <td>552242-21a</td>
-                                <td>2019-05-25</td>
-                                <td>
-                                <button className="btn btn-primary">More</button>
-                                </td>
-                            </tr>
-                            {/* end user 6 */}
                             </tbody>
                         </DataTable>
                         {/* End Table with hoverable rows */}
